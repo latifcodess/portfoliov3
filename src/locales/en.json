@@ -1,0 +1,127 @@
+{
+  "seo": {
+    "title": "Latif Krasniqi — Application developer · latif.codes",
+    "description": "Portfolio of Latif Krasniqi, IT apprentice in application development at ETML, Lausanne: web, native and infra."
+  },
+  "a11y": {
+    "skip": "Skip to content"
+  },
+  "header": {
+    "switchLang": "Switch to French",
+    "toLight": "Switch to light theme",
+    "toDark": "Switch to dark theme",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "cvLabel": "Download résumé (PDF)"
+  },
+  "nav": {
+    "label": "Main navigation",
+    "projects": "Projects",
+    "stack": "Stack",
+    "path": "Background",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Application developer",
+    "subtitle": "— web, native and infra.",
+    "intro": "Latif Krasniqi, IT apprentice in application development (Swiss federal VET diploma) at ETML, Lausanne. AdonisJS backends, native macOS apps in Swift, Docker infrastructure.",
+    "cta": "View projects",
+    "githubLabel": "GitHub:",
+    "terminalLabel": "Introduction terminal",
+    "role": "CFC apprentice · application development"
+  },
+  "facts": {
+    "label": "At a glance",
+    "education": "Education",
+    "educationValue": "CFC in IT · ETML",
+    "period": "Period",
+    "periodValue": "2024 → 2028",
+    "location": "Based in",
+    "locationValue": "Lausanne, Switzerland",
+    "languages": "Languages",
+    "languagesValue": "French · Albanian · English"
+  },
+  "projects": {
+    "label": "01 — Projects",
+    "title": "Selected work",
+    "intro": "Personal and school projects, built solo, as a pair or as a team — my role is shown on each card.",
+    "roles": {
+      "solo": "Solo",
+      "pair": "Pair",
+      "team": "Team"
+    },
+    "roleLabel": "Role:",
+    "onGithub": "view the repository on GitHub",
+    "more": {
+      "title": "Everything else is on GitHub."
+    },
+    "pulse": {
+      "previewLabel": "Pulse preview in the menu bar: Claude 62%, ChatGPT 34%, Gemini 18%, Copilot 47%. Claude limit estimated around 2:40 PM.",
+      "date": "Thu 09:26",
+      "tag": "preview",
+      "projection": "↳ Claude: limit around 2:40 PM"
+    },
+    "items": {
+      "pulse": {
+        "title": "Pulse",
+        "type": "Personal · macOS",
+        "description": "A macOS menu bar app that shows how much of my AI usage limits I’ve used — Claude, ChatGPT, Gemini, Copilot — and estimates when I’ll hit them."
+      },
+      "openInVsCode": {
+        "title": "Open in VS Code",
+        "type": "Personal · macOS",
+        "description": "Adds “Open in VS Code” to the Finder’s right-click menu. Supports VS Code, Insiders, Cursor and VSCodium, with updates through GitHub Releases."
+      },
+      "passionLecture": {
+        "title": "PassionLecture",
+        "type": "ETML · Web",
+        "description": "A platform to share, discover and rate books. AdonisJS 6 REST API documented with Swagger, token-based authentication, Vue 3 front end."
+      },
+      "runeado": {
+        "title": "Runeado",
+        "type": "ETML-INF",
+        "description": "A run management app built as a team at ETML. I built the kiosk screen and its documentation, along with several features and unit tests. I also provided on-site support with the app in production."
+      },
+      "dockerSwarm": {
+        "title": "WordPress on Docker Swarm",
+        "type": "ETML · DevOps",
+        "description": "Highly available WordPress on a 3-VM cluster: persistent MariaDB, Nginx as a reverse proxy, Docker secrets, isolated networks. Set up from the CLI."
+      },
+      "flashcards": {
+        "title": "FlashCards",
+        "type": "Web",
+        "description": "A flashcard study web app: full CRUD for decks and cards, plus a practice mode to test yourself before flipping the card."
+      }
+    }
+  },
+  "stack": {
+    "label": "02 — Stack",
+    "title": "Tools & technologies",
+    "columns": {
+      "languages": "/languages",
+      "frameworks": "/frameworks",
+      "data": "/data",
+      "infra": "/infra",
+      "tools": "/tools"
+    }
+  },
+  "path": {
+    "label": "03 — Background",
+    "title": "git log --oneline",
+    "intro": "A dual-track apprenticeship: theory at ETML, practice through projects.",
+    "items": {
+      "cfc": "CFC in IT, application development · planned",
+      "year3": "3rd year — private K3s cloud, DevOps, distributed systems, functional programming",
+      "start": "Started the CFC at ETML, Lausanne"
+    }
+  },
+  "contact": {
+    "label": "04 — Contact",
+    "title": "A project, an idea?",
+    "titleDim": "Let’s talk.",
+    "emailLabel": "Send an email"
+  },
+  "footer": {
+    "deployed": "latif.codes · deployed on Vercel"
+  }
+}

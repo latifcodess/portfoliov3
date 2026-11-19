@@ -1,0 +1,127 @@
+{
+  "seo": {
+    "title": "Latif Krasniqi — Développeur d’applications · latif.codes",
+    "description": "Portfolio de Latif Krasniqi, apprenti informaticien CFC en développement d’applications à l’ETML, Lausanne : web, natif et infra."
+  },
+  "a11y": {
+    "skip": "Aller au contenu"
+  },
+  "header": {
+    "switchLang": "Passer en anglais",
+    "toLight": "Passer au thème clair",
+    "toDark": "Passer au thème sombre",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "cvLabel": "Télécharger le CV (PDF)"
+  },
+  "nav": {
+    "label": "Navigation principale",
+    "projects": "Projets",
+    "stack": "Stack",
+    "path": "Parcours",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Développeur d’applications",
+    "subtitle": "— web, natif et infra.",
+    "intro": "Latif Krasniqi, apprenti informaticien CFC en développement d’applications à l’ETML, Lausanne. Backends AdonisJS, apps macOS natives en Swift, infrastructure Docker.",
+    "cta": "Voir les projets",
+    "githubLabel": "GitHub :",
+    "terminalLabel": "Terminal de présentation",
+    "role": "apprenti CFC · développement d’applications"
+  },
+  "facts": {
+    "label": "En bref",
+    "education": "Formation",
+    "educationValue": "CFC informaticien · ETML",
+    "period": "Période",
+    "periodValue": "2024 → 2028",
+    "location": "Basé à",
+    "locationValue": "Lausanne, Suisse",
+    "languages": "Langues",
+    "languagesValue": "Français · Albanais · Anglais"
+  },
+  "projects": {
+    "label": "01 — Projets",
+    "title": "Travaux sélectionnés",
+    "intro": "Projets perso et scolaires, réalisés seul, en binôme ou en équipe — mon rôle est indiqué sur chaque carte.",
+    "roles": {
+      "solo": "Solo",
+      "pair": "Binôme",
+      "team": "Équipe"
+    },
+    "roleLabel": "Rôle :",
+    "onGithub": "voir le dépôt sur GitHub",
+    "more": {
+      "title": "Tout le reste est sur GitHub."
+    },
+    "pulse": {
+      "previewLabel": "Aperçu de Pulse dans la barre des menus : Claude 62 %, ChatGPT 34 %, Gemini 18 %, Copilot 47 %. Limite de Claude estimée vers 14 h 40.",
+      "date": "jeu. 09:26",
+      "tag": "aperçu",
+      "projection": "↳ Claude : limite vers 14:40"
+    },
+    "items": {
+      "pulse": {
+        "title": "Pulse",
+        "type": "Perso · macOS",
+        "description": "App de barre des menus macOS qui affiche le pourcentage utilisé de mes limites IA — Claude, ChatGPT, Gemini, Copilot — et estime l’heure où elles seront atteintes."
+      },
+      "openInVsCode": {
+        "title": "Open in VS Code",
+        "type": "Perso · macOS",
+        "description": "Ajoute « Ouvrir dans VS Code » au clic droit du Finder. Gère VS Code, Insiders, Cursor et VSCodium, avec mises à jour via GitHub Releases."
+      },
+      "passionLecture": {
+        "title": "PassionLecture",
+        "type": "ETML · Web",
+        "description": "Plateforme pour partager, découvrir et noter des livres. API REST AdonisJS 6 documentée avec Swagger, authentification par tokens, front en Vue 3."
+      },
+      "runeado": {
+        "title": "Runeado",
+        "type": "ETML-INF",
+        "description": "Application de gestion de runs, développée en équipe à l’ETML. J’y ai créé l’écran kiosque et sa documentation, ainsi que plusieurs fonctionnalités et tests unitaires. J’ai aussi assuré du support sur le terrain avec l’app en production."
+      },
+      "dockerSwarm": {
+        "title": "WordPress sur Docker Swarm",
+        "type": "ETML · DevOps",
+        "description": "WordPress hautement disponible sur un cluster de 3 VM : MariaDB persistante, Nginx en reverse proxy, secrets Docker, réseaux isolés. Mis en place en CLI."
+      },
+      "flashcards": {
+        "title": "FlashCards",
+        "type": "Web",
+        "description": "App web de révision par flashcards : decks et cartes en CRUD complet, et un mode exercice pour se tester avant de retourner la carte."
+      }
+    }
+  },
+  "stack": {
+    "label": "02 — Stack",
+    "title": "Outils & technologies",
+    "columns": {
+      "languages": "/langages",
+      "frameworks": "/frameworks",
+      "data": "/data",
+      "infra": "/infra",
+      "tools": "/outils"
+    }
+  },
+  "path": {
+    "label": "03 — Parcours",
+    "title": "git log --oneline",
+    "intro": "Une formation duale : la théorie à l’ETML, la pratique en projets.",
+    "items": {
+      "cfc": "CFC informaticien, développement d’applications · prévu",
+      "year3": "3e année — cloud privé K3s, DevOps, systèmes distribués, programmation fonctionnelle",
+      "start": "Début du CFC à l’ETML, Lausanne"
+    }
+  },
+  "contact": {
+    "label": "04 — Contact",
+    "title": "Un projet, une idée ?",
+    "titleDim": "Parlons-en.",
+    "emailLabel": "Écrire un e-mail"
+  },
+  "footer": {
+    "deployed": "latif.codes · déployé sur Vercel"
+  }
+}

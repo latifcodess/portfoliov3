@@ -1,0 +1,61 @@
+/* Variables de thème. Le thème est porté par <html data-theme="dark|light">,
+   posé avant le rendu par le script inline de index.html. */
+
+:root {
+  /* Accent : fonds de boutons, barres, pastilles */
+  --accent: #ff8a4c;
+  --on-accent: #0a0c0d;
+
+  --font-sans: 'Geist', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'Geist Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+  --radius-xs: 6px;
+  --radius-sm: 8px;
+  --radius: 12px;
+  --radius-lg: 18px;
+
+  --container: 1200px;
+  --gutter: 24px;
+  --header-h: 64px;
+  --grid-size: 80px;
+}
+
+:root,
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --accent-text: #ff8a4c;
+
+  --bg: #0a0c0d;
+  --surface: #0d1011;
+  --surface2: #111517;
+  --chip: #161a1c;
+  --line: #1e2326;
+  --line2: #2a3033;
+  --grid: #14181a;
+  --text: #e7e9ea;
+  --muted: #a3aaae;
+  --dim: #7d858a;
+  --chip-text: #c9ced1;
+  --track: #262c2f;
+  --header: rgba(10, 12, 13, 0.86);
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+  /* Accent assombri (×0.55 par canal) pour le texte : contraste AA sur fond clair */
+  --accent-text: #8c4c2a;
+
+  --bg: #f7f7f5;
+  --surface: #ffffff;
+  --surface2: #f0f0ec;
+  --chip: #edede8;
+  --line: #e2e2dc;
+  --line2: #d3d3cc;
+  --grid: #eeeee9;
+  --text: #111314;
+  --muted: #50565a;
+  --dim: #656b6f;
+  --chip-text: #33383b;
+  --track: #e2e2dc;
+  --header: rgba(247, 247, 245, 0.9);
+}

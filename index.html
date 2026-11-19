@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Latif Krasniqi — Développeur d’applications · latif.codes</title>
+    <meta
+      name="description"
+      content="Portfolio de Latif Krasniqi, apprenti informaticien CFC en développement d’applications à l’ETML, Lausanne : web, natif et infra."
+    />
+    <link rel="canonical" href="https://latif.codes/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="theme-color" content="#0A0C0D" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://latif.codes/" />
+    <meta property="og:site_name" content="latif.codes" />
+    <meta property="og:title" content="Latif Krasniqi — Développeur d’applications" />
+    <meta
+      property="og:description"
+      content="Apprenti informaticien CFC en développement d’applications à l’ETML, Lausanne : web, natif et infra."
+    />
+    <meta property="og:locale" content="fr_CH" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:image" content="https://latif.codes/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="latif.codes — Développeur d’applications, web, natif et infra." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://latif.codes/og-image.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Applique thème + langue avant le premier rendu (évite le flash). -->
+    <script>
+      (function () {
+        var root = document.documentElement
+        var theme = null
+        var lang = null
+        try {
+          theme = localStorage.getItem('theme')
+          lang = localStorage.getItem('lang')
+        } catch (e) {}
+        if (theme !== 'light' && theme !== 'dark') {
+          theme = window.matchMedia && matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'
+        }
+        root.dataset.theme = theme
+        if (lang !== 'fr' && lang !== 'en') {
+          var nav = (navigator.languages && navigator.languages[0]) || navigator.language || ''
+          lang = nav.toLowerCase().indexOf('fr') === 0 ? 'fr' : 'en'
+        }
+        root.lang = lang
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
